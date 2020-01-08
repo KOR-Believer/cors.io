@@ -69,7 +69,7 @@ def index():
     response.headers['Access-Control-Allow-Origin'] = '*'
     
     # ensure that data getting passed back is plain text
-    response.headers['Content-Type'] = "text/plain"
+    #response.headers['Content-Type'] = "text/plain"
     
     '''
     preflight CORS policy response headers
